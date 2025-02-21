@@ -1,0 +1,190 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.navbar{
+    background-color: #22191c;
+}
+.kont-1{
+    background: linear-gradient(to bottom, #22191c 60%, #e2d9dc 40%);
+}
+.kont-1-text{
+    color: #e2d9dc;
+    padding-top: 20px;
+}
+.kont-1-text a{
+    text-decoration: none;
+    background-color: #6a5051;
+    color: #dcdcdc;
+    padding: 3px 12px;
+    font-size: 12px;
+    box-shadow: 0px 0px 10px rgb(21, 21, 21);
+}
+.kont-1-text h1{
+    font-weight: bolder;
+}
+.kont-1 img{
+    filter: drop-shadow(0px 5px 5px rgb(0, 0, 0));
+}
+.kont-2{
+    background-color: #e2d9dc;
+}
+.kont-2 h1{
+    font-weight: bolder;
+}
+.kont-2 img{
+    filter: drop-shadow(0px 5px 3px rgb(66, 66, 66));
+}
+.gambar-tittle{
+    text-align: start;
+}
+.judul-gambar{
+    color: white;
+    font-size: 12px;
+}
+.kartu{
+    display: flex;
+    justify-content: center
+}
+.kont-3{
+    background-color: #22191c;
+}
+.row{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.col{
+    display: flex;
+    background-color: #6a5051;
+    width: 250px;
+    box-shadow: 0px 0px 6px black;
+}
+.col:hover{
+    cursor: pointer;
+    background-color: #7b5c5d;
+}
+.gambar-tittle h1{
+    margin-top: 15px;
+}
+.kont-3 img {
+    padding: 15px 0;
+    filter: drop-shadow(0px 4px 5px rgb(31, 31, 31));
+}
+.kont-4{
+    background-color: #e2d9dc;
+}
+.kont-4-tittle h1{
+    font-weight: bolder;
+}
+.kont-4 img{
+    box-shadow: 0px 0px 5px black;
+}
+footer{
+    background-color: #22191c;
+    color: #e2d9dc;
+    text-align: center;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:540px){
+    .kont-1 img{
+        width: 400px;
+    }
+    .kont-1-text{
+        font-size: 12px;
+    }
+    .kont-2 p{
+        font-size: 11px;
+    }
+    .kont-2-text{
+        margin: 0 30px;
+    }
+    .kont-2 h5{
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .kont-2 img{
+        width: 400px;
+    }
+    .kont-3 img{
+        width: 70px;
+    }
+    .col{
+        font-size: 12px;
+    }
+    .gambar-tittle h1{
+        font-size: 13px;
+        font-weight: 700;
+       
+    }
+    .gambar-tittle p{
+        font-size: 10px;
+    }
+    .kont-4 img{
+        width: 100%;
+        max-height: 300px;
+    }
+    .kont-4-tittle h5 {
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .kont-4-tittle{
+        margin: 0 30px;
+    }
+    .kont-4-tittle p{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:600px){
+    .gambar-tittle{
+        font-size: 14px;
+    }
+    .kont-1-text{
+        font-size: 12px;
+    }
+    .kont-2 p{
+        font-size: 14px;
+    }
+    .kont-2-text{
+        margin: 0 30px;
+    }
+    .kont-2 h5{
+        font-size: 13px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .gambar-tittle h1{
+        font-size: 15px;
+        font-weight: 700; 
+    }
+    .gambar-tittle p{
+        font-size: 13px;
+    }
+    .kont-4-tittle{
+        width: 50%;
+    }
+    .kont-4-gambar{
+        width: 50%;
+    }
+    .kont-4 img{
+        width: 400px;
+        max-height: 400px;
+    }
+    .kont-4-tittle p{
+        font-size: 13px;
+        margin: 0 10px;
+    }
+}
+@media screen and (min-width:1040px){
+    .row{
+        width: 80%;
+    }
+}
+@media screen and (min-width:1300px){
+    .row{
+        width: 60%;
+    }
+}
